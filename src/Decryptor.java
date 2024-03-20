@@ -1,11 +1,17 @@
 public class Decryptor {
 
-    public decryptMessage (String message, String key){
-       return
+    public String decryptMessage(String message, String key1) {
+        return "Розшифроване повідомлення: " + message;
 
-        String mes1 = "-$''$<k<#\"?.k9*))\"?";
-        String key1 = "%&";
+
+        String message = "-$''$<k<#\"?.k9*))\"?";
+        String key = "%&";
+        char []  = toString().toCharArray();
+        System.out.println();
+
+
 
 
     }
+
 }
